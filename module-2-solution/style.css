@@ -1,0 +1,133 @@
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+*{
+	font-family: helvetica;
+}
+
+#box-1 {
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 700px;
+	height: 200px;
+	background-color: grey;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+#box-2 {
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 700px;
+	height: 200px;
+	background-color: grey;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+#box-3 {
+	margin-top: 100px;
+	margin-left:  10px;
+	width: 700px;
+	height: 200px;
+	background-color: grey;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+#s1{
+	width: 100px;
+	float: right;
+	clear: left;
+	background-color: #fad105;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	box-sizing: border-box;
+}
+#content-1{
+	clear: right;
+	font-weight: bold;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#s2{
+	width: 100px;
+	float: right;
+	clear: left;
+	background-color: #DA33FF;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	box-sizing: border-box;
+}
+#content-2{
+	clear: right;
+	font-weight: bold;
+	padding: 10px;
+	box-sizing: content-box;
+}
+#s3{
+	width: 100px;
+	float: right;
+	clear: left;
+	background-color: #05faf2;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+	box-sizing: border-box;
+}
+#content-3{
+	clear: right;
+	font-weight: bold;
+	padding: 10px;
+	box-sizing: border-box;
+}
+/*------------Small Devices-------------*/
+@media (max-width: 767px) {
+	#box-1{
+		width: 98%;
+	}
+	#box-2{
+		width: 98%;
+	}
+	#box-3{
+		width: 98%;
+	}
+}
+
+/*--------------Large Devices------------*/
+@media (min-width: 992px) {
+	#box-1{
+		width:32%;
+	}
+	#box-2{
+		width: 32%;
+	}
+	#box-3{
+		width: 32%;
+	}
+}
+
+
+/*------------Medium Devices------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#box-1{
+		width: 48%;
+	}
+	#box-2{
+		width: 48%;
+	}
+	#box-3{
+		width: 98%;
+	}
+}
+
+
